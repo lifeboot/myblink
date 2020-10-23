@@ -7,5 +7,6 @@ void setup(){
 void loop(){
     int val = digitalRead(3);
     delay(100);
+    Serial.print("val:");
     Serial.println(val);
 }
